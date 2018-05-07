@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+ <title>Diario la Palmera</title>
+ <link>https://www.diariolaplamera.com</link>
+ <description>Noticias reales e imparciales.</description>
+ <item>
+  <title>El Mallorca gana la Champion Leage</title>
+  <link>noticia1.html</link>
+  <description>El equipo bermellón a ganado por 1 a 0 al Deportivo de las Maracas</description>
+ </item>
+ <item>
+  <title>Detectada señal de radio extraterrestre</title>
+  <link>noticia2.html</link>
+  <description>Detectado una serie de extrañas señales de radio provenientes de la galaxia Andromeda</description>
+ </item>
+</channel>
+</rss>
+
+
