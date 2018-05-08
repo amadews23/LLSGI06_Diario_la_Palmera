@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<title>Diario la Palmera</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+		<meta name="description" content="Periódico imparcial y realista. Noticias nacionales, internacionales y mucho más."/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="Diario la Palmera"/>
+		<meta property="og:url" content="http://www.diariolapalmera.com/"/>
+		<meta property="og:image" content="img/logo.png"/>
+		<meta property="og:description" content="Periódico imparcial y realista. Noticias nacionales, internacionales y mucho más."/>
+		<meta property="og:site_name" content="Diario la Palmera"/>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu">
+ 		<link rel='stylesheet' media='screen and (min-width: 961px)' href='css/pc.css'>
+ 		<link rel='stylesheet' media='screen and (max-width: 960px)' href='css/mob.css'>
+		<link rel="alternate" type="application/rss+xml" title="rss de Diario de la Palmera" href="data/rss.xml">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<script src="js/news.js"></script>
+	</head>
+	<body>
+		<div id="publi">
+			<img class="img-responsive" src="img/publi.png" alt="publicidad">
+			Publicidad<br>
+			<img id="img-reponsive" src="img/publi.png" alt="publicidad">
+		</div>
+
+		<nav class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<div id="publi_mobil">
+					Publicidad<br>
+					<img id="imghorizontal" src="img/publi_movil.png" alt="publicidad">
+				</div>
+				<img src="img/bmenu.png" id="boton_menu" alt="boton menu" onclick="mostrar_secciones()">
+				<img src="img/bmenu.png" id="boton_menu_mobil" alt="boton menu" onclick="mostrar_secciones_mobil()">
+				<img src="img/bcerrar.png" id="boton_cerrar_mobil" alt="boton cerrar" onclick="cerrar_secciones_mobil()">				
+				<img src="img/palm.png" alt="Logo Diario la Palmera" >
+				
+				<ul class="nav navbar-nav" id="secciones">
+					<li id="s0" class="active"><a href="#">PORTADA</a></li>
+					<li id="s1" class="noticias1"><a href="#">NACIONAL</a></li>
+					<li id="s2" class="noticias1"><a href="#">POLÍTICA</a></li>
+					<li id="s3" class="noticias1"><a href="#">ECONOMÍA</a></li>
+					<li id="s4" class="dropdown">
+    						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      							DEPORTES
+      							<b class="caret"></b>
+    						</a>
+    						<ul class="dropdown-menu">
+      							<li><a href="noticia1.html"><b>El Mallorca gana la Copa del Rey</b></a></li>
+    						</ul>
+  					</li>
+					<li id="s5" class="dropdown">
+    						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      							INTERNACIONAL
+      							<b class="caret"></b>
+    						</a>
+    						<ul class="dropdown-menu">
+      							<li><a href="noticia2.html"><b>Un pez con dientes de persona </b></a></li>
+    						</ul>
+  					</li>
+					<li id="s6" class="noticias2"><a href="#">EL TIEMPO</a></li>
+					<li id="s7" class="noticias2"><a href="#">LOTERÍA</a></li>
+					<li id="s8" class="noticias2"><a href="#">CULTURA</a></li>
+					<li id="s10" class="noticias2"><a href="#">OPINIÓN</a></li>
+					<li id="s12" class="dropdown">
+    						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+      							JUEGOS
+      							<b class="caret"></b>
+    						</a>
+    						<ul class="dropdown-menu">
+      							<li><a href="https://rawgit.com/amadews23/LLSGI02_Lunar_Landing_JavaScript/minified/index.html"><b> Jugar a Lunar Landing </b></a></li>
+    						</ul>
+  					</li>
+				</ul>
+			</div>
+			<div class="container" id="fecha">Fecha
+			</div>
+		</nav>
+		<div class="container" id="noticias_secundarias" style="background-color:lavender;">
+			<br>
+			<div class="jumbotron">
+				<h2><a href="noticia1.html">El Mallorca gana la Copa del Rey</a></h2>	
+			</div>
+			<div class="row">
+				<div class="col-sm-6" style="background-color:lavender;">
+					<p>La Copa del Rey es el logro más importante en la historia del Mallorca. El equipo rojillo goleó por 3-0 al Recreativo de Huelva en una final que se disputó en el estadio Martínez Valero de Elche, feudo que el primer equipo rojillo no pisaba desde 1991 –en un partido copero– y que desde el 28 de junio de 2003 no ha vuelto a pisar. Ese día, la ciudad alicantina festejó el triunfo con los 15.000 bermellones que por la noche celebraron la consecución del segundo título oficial de la entidad (el primero había sido la Supercopa de España en 1998) a nivel nacional.</p>
+				<br>10 de Mayo del 2018
+				</div>
+				<div class="col-sm-6" style="background-color:lavender;">  
+					<img src="img/mallorca_m.jpg" class="img-responsive center-block" alt="mallorca.jpg">
+				</div>
+					<br>
+			</div>
+				<br>
+				<div class="jumbotron">
+					<a href="noticia2.html"><h2>Un pez con dientes de persona</h2></a>	
+				</div>
+				<div class="row">
+					<div class="col-sm-6" style="background-color:lavender;">
+						<p>El pacú es un pez de agua dulce de América del Sur que se encuentra en ríos y arroyos en las cuencas de los ríos Amazonas y Orinoco de las tierras bajas de la Amazonía, aunque también ha sido visto en Papúa Nueva Guinea, donde fue introducido artificialmente.</p>
+						<p>El pacú es de la misma subfamilia (Serrasalminae) que la piraña carnívora,, aunque tienen distinta alimentación. La piraña es carnívora, en cambio el pacú es omnívora. La diferencia es evidente en la estructura de sus dientes. La piraña ha evolucionado dientes afilados, mientras que el pacú tienen dientes rectos y más cuadrados, que misteriosamente se asemejan a los de los humanos.</p>
+						<br>4 de Mayo del 2018
+					</div>
+					<div class="col-sm-6" style="background-color:lavender;">  
+						<img src="img/pez_m.png" class="img-responsive center-block" alt="pez.png">
+					</div>
+					<br>
+				</div>
+				<br>
+				<div class="jumbotron">
+					<h2>Detectada señal de radio extraterrestre</h2>	
+				</div>
+				<div class="row">
+					<div class="col-sm-6" style="background-color:lavender;">
+						<p>Un grupo de científicos ha detectado una serie de extrañas señales de radio provenientes de la galaxia Andromeda. Observaron la ubicación desde la que provenía la señal durante más de cinco horas el 24 de Abril, logrando distinguir 15 ráfagas de radio distribuidas en el rango de los 4 a 8 GHz.</p>
+						<p>Otras teorías especulan con que las señales son el resultado de la energía utilizada por civilizaciones extraterrestres como combustible para sus naves espaciales.</p>
+						<br>2 de Mayo del 2018
+				</div>
+				<div class="col-sm-6" style="background-color:lavender;">  
+					<img src="img/radio-telescope_m.jpg" class="img-responsive center-block" alt="radio-telescope1.jpg">
+				</div>
+				<br>
+			</div>
+				<br>
+				<input type="button" id="boton_mas1" class="btn btn-info" value="Cargar más noticias" onclick=" bajar()"/>
+		</div>
+		<footer class="footer" style="background-color:lavender;"> 
+			<div class="container"> 
+				<ul class="footer-links"> 
+					<li>Copyright <br><a href="https://rawgit.com/amadews23/LLSGI06_Diario_la_Palmera/master/index.html">Diario la Palmera 2018</a></li> 
+					<li>Desarrollado por:<br><a href="https://github.com/amadews23"> Bartolomé Vich Lozano</a></li> 
+				</ul>
+
+			</div>
+		</footer>
+	</body>
+</html>
