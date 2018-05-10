@@ -31,6 +31,8 @@ La publiciad en la versión del móvil esta arriba dl todo y desaparece al hacer
 ### La versión de pc y de móvil
 Al hacer scroll al final de la página o apretar el botón "cargar más noticias ,carga 3 noticias más (contenidas en 1.json) y después 3 más que están en 2.json. 
 
+La plantilla para una sola noticia tiene una imagen que ocupa todo el ancho, debajo el texto y después el video.
+
 
 ### Las imágenes
 Algunas proceden de http://openclipart.com ,otras son fotos mias, la del pez procede de la wikipedia. Todas las imágenes han sido optimizadas en https://tinypng.com/ .
