@@ -35,7 +35,7 @@ La plantilla para una sola noticia tiene una imagen que ocupa todo el ancho, deb
 
 
 ### Las imágenes
-Algunas proceden de http://openclipart.com ,otras son fotos mias, la del pez procede de la wikipedia. Todas las imágenes han sido optimizadas en https://tinypng.com/ .
+Algunas proceden de http://openclipart.com ,otras son fotos mias, la del pez y la del Amstrad proceden de la wikipedia. Todas las imágenes han sido optimizadas en https://tinypng.com/ .
 
 
 El enlace para ver la página es
