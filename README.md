@@ -1,5 +1,7 @@
 # LLSGI06_Diario_la_Palmera
 
+### Sobre la página
+
 ### El proyecto se compone de:
 * Tres archivos .html (index.html , noticia1.html y noticia2.html).
 * Una carpeta css/ con dos archivos .css (pc.css y mob.css ).
@@ -9,18 +11,29 @@
 
 ### La versión de ordenador
 
-![Texto alternativo](para_ordenador.png)
-
-### La versión de móbil 
-![Texto alternativo](para_mobil.png)
- * Que desaparece el "slogan".
- * Las letras son más grandes.
- * La nota sale justo encima del cuestionario.
+![para_ordenador](para_ordenador.png)
 
 
+Hay un div ( "nav bar fijo" ) que es donde contiene los enlaces en las secciones.
+![Secciones](secciones.png).
+Las secciones están divididas en dos principales y secundarias.
+Al hacer scroll se esconden primero las segundas y después la primeras. Para volver a salir se tiene que volver al  principio de la página. La publicidad de la derecha sube o baja cuando se "contrae" o "expande" el div de las secciones.
+Arriba del todo a la derecha también abría sitio para otro banner publicitario.
+
+### La versión de móvil 
+![para_movil](para_mobil.png)
+ 
+ En el móvil las secciones estań ocultas y salen al apretar el botón (![boton_menu](img/bmenu.png) este botón desaparece y aparece ![boton_cerrar](img/bcerrar.png).
+
+La publiciad en la versión del móvil esta arriba dl todo y desaparece al hacer scroll.
 
 
+### La versión de pc y de móvil
+Al hacer scroll al final de la página o apretar el botón "cargar más noticias ,carga 3 noticias más (contenidas en 1.json) y después 3 más que están en 2.json. 
 
+
+### Las imágenes
+Algunas proceden de http://openclipart.com y otras son fotos mias.
 
 
 
