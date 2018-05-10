@@ -33,7 +33,7 @@ Al hacer scroll al final de la página o apretar el botón "cargar más noticias
 
 
 ### Las imágenes
-Algunas proceden de http://openclipart.com y otras son fotos mias.
+Algunas proceden de http://openclipart.com ,otras son fotos mias, la del pez procede de la wikipedia.
 
 
 
