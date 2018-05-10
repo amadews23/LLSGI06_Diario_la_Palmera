@@ -1,4 +1,4 @@
-# LLSGI06_Diario_la_Palmera
+# LLSGI06_Diario_la_Palmera (Versión Minificada)
 
 ### Sobre la página
 
@@ -38,4 +38,4 @@ Algunas proceden de http://openclipart.com ,otras son fotos mias, la del pez pro
 
 El enlace para ver la página es
 
-https://rawgit.com/amadews23/LLSGI06_Diario_la_Palmera/master/index.html
+https://rawgit.com/amadews23/LLSGI06_Diario_la_Palmera/minified/index.html
