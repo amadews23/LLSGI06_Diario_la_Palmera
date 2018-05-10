@@ -17,13 +17,13 @@
 Hay un div ( "nav bar fijo" ) que es donde contiene los enlaces en las secciones.
 ![Secciones](secciones.png).
 Las secciones están divididas en dos principales y secundarias.
-Al hacer scroll se esconden primero las segundas y después la primeras. Para volver a salir se tiene que volver al  principio de la página. La publicidad de la derecha sube o baja cuando se "contrae" o "expande" el div de las secciones.
-Arriba del todo a la derecha también abría sitio para otro banner publicitario.
+Al hacer scroll se esconden primero las segundas y después la primeras. Para volver a salir se tiene que volver al  principio de la página. Al esconderse las secciones aparece el botón ![botón_menu](img/bmenu.png) .La publicidad de la derecha sube o baja cuando se "contrae" o "expande" el div de las secciones.
+Arriba del todo a la derecha también hay sitio para otro banner publicitario.
 
 ### La versión de móvil 
 ![para_movil](para_mobil.png)
  
- En el móvil las secciones estań ocultas y salen al apretar el botón (![boton_menu](img/bmenu.png) este botón desaparece y aparece ![boton_cerrar](img/bcerrar.png).
+ En el móvil las secciones estań ocultas y salen al apretar el botón ![boton_menu](img/bmenu.png) este botón desaparece y aparece ![boton_cerrar](img/bcerrar.png).
 
 La publiciad en la versión del móvil esta arriba dl todo y desaparece al hacer scroll.
 
@@ -33,8 +33,9 @@ Al hacer scroll al final de la página o apretar el botón "cargar más noticias
 
 
 ### Las imágenes
-Algunas proceden de http://openclipart.com ,otras son fotos mias, la del pez procede de la wikipedia.
+Algunas proceden de http://openclipart.com ,otras son fotos mias, la del pez procede de la wikipedia. Todas las imágenes han sido optimizadas en https://tinypng.com/ .
 
 
+El enlace para ver la página es
 
 https://rawgit.com/amadews23/LLSGI06_Diario_la_Palmera/master/index.html
