@@ -25,11 +25,11 @@ Arriba del todo a la derecha también hay sitio para otro banner publicitario.
  
  En el móvil las secciones estań ocultas y salen al apretar el botón ![boton_menu](img/bmenu.png) este botón desaparece y aparece ![boton_cerrar](img/bcerrar.png).
 
-La publiciad en la versión del móvil esta arriba dl todo y desaparece al hacer scroll.
-
 
 ### La versión de pc y de móvil
 Al hacer scroll al final de la página o apretar el botón "cargar más noticias ,carga 3 noticias más (contenidas en 1.json) y después 3 más que están en 2.json. 
+
+La plantilla para una sola noticia tiene una imagen que ocupa todo el ancho, debajo el texto y después el video.
 
 
 ### Las imágenes
